@@ -61,7 +61,7 @@ function App() {
   return (
     <div className="app">
       <div className="logo">
-        <img src="./Color-Pro/logo-1.png" alt="" />
+        <img src="./logo-1.png" alt="" />
       </div>
       <div className="app-funs">
         <div className="list">

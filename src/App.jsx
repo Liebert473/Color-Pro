@@ -72,8 +72,8 @@ function App() {
           </div>
           <div className="l-bd">
             {items.map((x, i) => (
-              <div key={i} className="item" onClick={() => Select(i)}>
-                <div className="hd">
+              <div key={i} className="item">
+                <div className="hd" onClick={() => Select(i)}>
                   <p>Color {i + 1}</p>
                   <div className="remove" onClick={() => ItemDel(i)}></div>
                 </div>
